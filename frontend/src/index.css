@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+.menue {
+  background: rgba(36, 36, 36, 0.37);
+  backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(70px);
+  border-radius: 12px;
+  border: 1px solid rgba(75, 74, 74, 0.26);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 0px 0 rgba(54, 54, 54, 0.5),
+    inset 0 3px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 2px 1px rgba(148, 148, 148, 0.3);
+
+  position: relative;
+  overflow: hidden;
+}
